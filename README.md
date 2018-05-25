@@ -15,7 +15,9 @@ AndroidSkeliton is a boilerplate project to start with MVP, Dagger 2.11, RxJava 
 ## build.gradle (App)
 
 **Product flavours-** _dev, prod, mock_
+
 **minifyEnabled-** _true_
+
 **Proguard filed added-** _'proguard-rules.pro','proguard-fresco.pro','proguard-rxjava.pro'_
 
 ## version.properties
