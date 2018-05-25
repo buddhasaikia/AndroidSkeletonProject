@@ -23,3 +23,4 @@ AndroidSkeleton is a boilerplate project to start with MVP, Dagger 2.11, RxJava 
 ## version.properties
 
 This file track incremental build number value. Don't forget to reset ```VERSION_CODE``` value to 0.
+

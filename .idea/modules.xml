@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidSkeliton.iml" filepath="$PROJECT_DIR$/AndroidSkeliton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidSkeleton.iml" filepath="$PROJECT_DIR$/AndroidSkeleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
