@@ -1,5 +1,5 @@
 # AndroidSkelitonProject
-AndroidSkeliton is a boilerplate project to start with MVP, Dagger 2.11, RxJava 2, Splash screen, Fresco.
+AndroidSkeliton is a boilerplate project to start with MVP, Dagger 2.11, RxJava 2, Splash screen, Fresco with Kotlin support.
 
 ## The following libraries have already been included
 * [Dagger2](https://github.com/google/dagger)
@@ -12,4 +12,12 @@ AndroidSkeliton is a boilerplate project to start with MVP, Dagger 2.11, RxJava 
 * [Fresco](https://github.com/facebook/fresco)
 * [FindBugs](http://findbugs.sourceforge.net/)
 
-## A brief about build.gradle file
+## build.gradle (App)
+
+**Product flavours-** _dev, prod, mock_
+**minifyEnabled-** _true_
+**Proguard filed added-** _'proguard-rules.pro','proguard-fresco.pro','proguard-rxjava.pro'_
+
+## version.properties
+
+This file track incremental build number value. Don't forget to reset ```VERSION_CODE``` value to 0.
