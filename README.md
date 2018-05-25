@@ -1,5 +1,5 @@
-# AndroidSkelitonProject
-AndroidSkeliton is a boilerplate project to start with MVP, Dagger 2.11, RxJava 2, Splash screen, Fresco with Kotlin support.
+# AndroidSkeletonProject
+AndroidSkeleton is a boilerplate project to start with MVP, Dagger 2.11, RxJava 2, Splash screen, Fresco with Kotlin support.
 
 ## The following libraries have already been included
 * [Dagger2](https://github.com/google/dagger)
