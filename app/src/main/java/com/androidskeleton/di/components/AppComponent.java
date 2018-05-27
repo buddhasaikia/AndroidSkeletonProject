@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.androidskeleton.di.module.ActivityBindingModule;
 import com.androidskeleton.di.module.AppModule;
+import com.androidskeleton.di.module.RepositoryModule;
 
 import javax.inject.Singleton;
 
@@ -21,10 +22,11 @@ import dagger.android.support.AndroidSupportInjectionModule;
 @Component(modules = {
         AndroidSupportInjectionModule.class,
         AppModule.class,
-        ActivityBindingModule.class
+        ActivityBindingModule.class,
+        RepositoryModule.class
 })
 public interface AppComponent extends AndroidInjector<DaggerApplication> {
-    
+
     @Component.Builder
     interface Builder {
 
