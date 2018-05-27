@@ -8,12 +8,12 @@ import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
 
 @Module
-public abstract class MainActivityModule {
+public abstract class MainModule {
     @FragmentScoped
     @ContributesAndroidInjector
     abstract MainFragment mainFragment();
 
     @PerActivity
     @Binds
-    abstract MainActivityContract.Presenter mainPresenter(MainActivityPresenter presenter);
+    abstract MainContract.Presenter mainPresenter(MainPresenter presenter);
 }
