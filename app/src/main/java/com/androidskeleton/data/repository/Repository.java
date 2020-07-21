@@ -1,7 +1,9 @@
 package com.androidskeleton.data.repository;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
+
 import com.androidskeleton.data.datasource.base.BaseDataSource;
 import com.androidskeleton.data.datasource.base.DataSource;
 import com.androidskeleton.data.datasource.LocalDataSource;

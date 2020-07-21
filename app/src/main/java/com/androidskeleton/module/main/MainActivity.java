@@ -3,7 +3,8 @@ package com.androidskeleton.module.main;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import com.androidskeleton.R;
 import com.androidskeleton.module.base.DaggerBaseActivity;

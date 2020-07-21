@@ -83,15 +83,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportLibraryVersion"
-    implementation "com.android.support:recyclerview-v7:$rootProject.ext.supportLibraryVersion"
-    implementation "com.android.support:design:$rootProject.ext.supportLibraryVersion"
-    implementation "com.android.support:support-v4:$rootProject.ext.supportLibraryVersion"
-    implementation "com.android.support:cardview-v7:$rootProject.ext.supportLibraryVersion"
-    implementation "com.android.support.constraint:constraint-layout:$rootProject.ext.constraintLayout"
-    implementation 'com.android.support:support-v4:27.1.1'
+    implementation "androidx.recyclerview:recyclerview:1.2.0-alpha04"
+    implementation "androidx.constraintlayout:constraintlayout:$rootProject.ext.constraintLayout"
+
     testImplementation "junit:junit:$rootProject.ext.junit"
-    androidTestImplementation "com.android.support.test:runner:$rootProject.ext.testRunner"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.ext.espressoCore"
     implementation "com.google.dagger:dagger-android:$rootProject.ext.dagger2"
     annotationProcessor "com.google.dagger:dagger-android-processor:$rootProject.ext.dagger2"
@@ -100,7 +95,7 @@ dependencies {
     implementation "com.google.dagger:dagger-android-support:$rootProject.ext.dagger2"
 
     implementation "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxandroid"
-    implementation "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxandroid"
+    implementation "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxjava"
     implementation "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:$rxandroidAdapter"
     implementation "com.squareup.retrofit2:retrofit:$rootProject.ext.retrofit"
     implementation "com.squareup.retrofit2:converter-gson:$rootProject.ext.retrofit"
@@ -108,5 +103,5 @@ dependencies {
     implementation "com.facebook.stetho:stetho:$rootProject.ext.stetho"
     implementation "com.facebook.stetho:stetho-okhttp3:$rootProject.ext.stetho"
     implementation "com.facebook.fresco:fresco:$rootProject.ext.fresco"
-    androidTestCompile "com.google.code.findbugs:jsr305:$rootProject.ext.findBugs"
+    androidTestImplementation "com.google.code.findbugs:jsr305:$rootProject.ext.findBugs"
 }
